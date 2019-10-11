@@ -1,0 +1,95 @@
+
+思路：根据 uboot 的 console 调试信息来确定执行流程。  
+
+	board/fresscale/imx8mq_evk/spl.c:board_init_f();   //board_init_f前置初始化操作
+		common/spl/spl.c:preloader_console_init();     //初始化串口
+			board/fresscale/imx8mq_evk/spl.c:power_init_board();   //PMIC 的初始化
+				drivers/ddr/imx8m/lpddr4_init.c:ddr_init();        //初始化ddr
+				drivers/ddr/imx8m/ddrphy_train.c:ddr_cfg_phy()      //ddr的一些初始化
+				drivers/ddr/imx8m/helper.c:ddr_load_train_firmware()   
+					board/fresscale/imx8mq_evk/spl.c:spl_board_init();   //boot 开始启动
+						common/spl/spl.c:boot_from_devices()        //确定boot启动的设备
+							print_cpuinfo()        //打印cpu信息
+ 	
+
+需要判断 CONFIG_SPL_BUILD 这个变量是否被 define，以确定程序的执行流程。
+
+
+
+
+
+U-Boot SPL 2018.03-g0d6d880 (Sep 19 2019 - 03:11:50 -0700)                      
+PMIC:  PFUZE100 ID=0x10                                                         
+DDRINFO: start lpddr4 ddr init                                                  
+DRAM PHY training for 3200MTS                                                   
+check ddr4_pmu_train_imem code                                                  
+check ddr4_pmu_train_imem code pass                                             
+check ddr4_pmu_train_dmem code                                                  
+check ddr4_pmu_train_dmem code pass                                             
+Training PASS                                                                   
+DRAM PHY training for 667MTS                                                    
+check ddr4_pmu_train_imem code                                                  
+check ddr4_pmu_train_imem code pass                                             
+check ddr4_pmu_train_dmem code                                                  
+check ddr4_pmu_train_dmem code pass                                             
+Training PASS                                                                   
+DRAM PHY training for 3200MTS                                                   
+check ddr4_pmu_train_imem code                                                  
+check ddr4_pmu_train_imem code pass                                             
+check ddr4_pmu_train_dmem code                                                  
+check ddr4_pmu_train_dmem code pass                                             
+Training PASS                                                                   
+DDRINFO:ddrphy calibration done                                                 
+DDRINFO: ddrmix config done                                                     
+Normal Boot                                                                     
+Trying to boot from MMC1                                                        
+                                                                                
+                                                                                
+U-Boot 2018.03-g0d6d880 (Sep 19 2019 - 03:11:50 -0700)                          
+                                                                                
+CPU:   Freescale i.MX8MQ rev2.0 1500 MHz (running at 1000 MHz)                  
+CPU:   Commercial temperature grade (0C to 95C) at 46C                          
+Reset cause: POR                                                                
+Model: Freescale i.MX8MQ EVK                                                    
+DRAM:  3 GiB                                                                    
+TCPC:  Vendor ID [0x1fc9], Product ID [0x5110], Addr [I2C0 0x50]                
+MMC:   FSL_SDHC: 0, FSL_SDHC: 1                                                 
+Loading Environment from MMC... OK                                              
+No panel detected: default to HDMI                                              
+Display: HDMI (1280x720)                                                        
+In:    serial                                                                   
+Out:   serial                                                                   
+Err:   serial                                                                   
+                                                                                
+ BuildInfo:                                                                     
+  - ATF 1cb68fa                                                                 
+  - U-Boot 2018.03-g0d6d880                                                     
+                                                                                
+switch to partitions #0, OK                                                     
+mmc0(part 0) is current device                                                  
+flash target is MMC:0                                                           
+Net:   eth0: ethernet@30be0000                                                  
+Fastboot: Normal                                                                
+Normal Boot                                                                     
+Hit any key to stop autoboot:  0                                                
+switch to partitions #0, OK                                                     
+mmc0(part 0) is current device                                                  
+** Unable to read file boot.scr **                                              
+23163392 bytes read in 291 ms (75.9 MiB/s)                                      
+Booting from mmc ...                                                            
+44727 bytes read in 10 ms (4.3 MiB/s)                                           
+## Flattened Device Tree blob at 43000000                                       
+   Booting using the fdt blob at 0x43000000                                     
+   Using Device Tree in place at 0000000043000000, end 000000004300deb6 
+
+
+
+
+
+
+
+
+
+
+
+
