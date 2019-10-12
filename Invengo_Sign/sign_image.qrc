@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/sign_image">
+        <file>Invango/bg_ avatar1 .png</file>
+        <file>Invango/bg_ avatar2.png</file>
+        <file>Invango/tab_logo_invengo.png</file>
+        <file>Invango/bg_ avatar3.png</file>
+        <file>Invango/bg_time.png</file>
+        <file>Invango/ic_attention.png</file>
+        <file>Invango/line.png</file>
+        <file>Invango/tab_bg.png</file>
+    </qresource>
+</RCC>
