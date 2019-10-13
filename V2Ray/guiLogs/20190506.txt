@@ -1,0 +1,23 @@
+--------------------------------info[14:52:58]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[14:53:00]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[14:53:00]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------在前缀“http://127.0.0.1:1082/pac/”上侦听失败，因为它与计算机上的现有注册冲突。[14:53:00]--------------------------------
+System.Net.HttpListenerException (0x80004005): 在前缀“http://127.0.0.1:1082/pac/”上侦听失败，因为它与计算机上的现有注册冲突。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[14:53:00]--------------------------------
+System.Exception: Webserver running...
+
+ 

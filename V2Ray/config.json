@@ -1,0 +1,140 @@
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "debug"
+  },
+  "inbounds": [
+    {
+      "port": 1080,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "ip": null,
+        "clients": null
+      },
+      "streamSettings": null
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "seeed.online",
+            "port": 443,
+            "users": [
+              {
+                "id": "dc364e47-d62a-497f-ad29-7af3d5499148",
+                "alterId": 64,
+                "email": "t@t.tt",
+                "security": "aes-128-gcm"
+              }
+            ]
+          }
+        ],
+        "servers": null,
+        "response": null
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": null,
+        "tcpSettings": null,
+        "kcpSettings": null,
+        "wsSettings": null,
+        "httpSettings": null,
+        "quicSettings": null
+      },
+      "mux": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "vnext": null,
+        "servers": null,
+        "response": null
+      },
+      "streamSettings": null,
+      "mux": null
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "vnext": null,
+        "servers": null,
+        "response": {
+          "type": "http"
+        }
+      },
+      "streamSettings": null,
+      "mux": null
+    }
+  ],
+  "dns": null,
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "outboundTag": "proxy",
+        "ip": null,
+        "domain": [
+          "www.seeedstudio.com"
+        ]
+      },
+      {
+        "type": "field",
+        "port": null,
+        "outboundTag": "direct",
+        "ip": null,
+        "domain": [
+          "plm.seeedstudio.com.cn"
+        ]
+      },
+      {
+        "type": "field",
+        "port": null,
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private"
+        ],
+        "domain": null
+      },
+      {
+        "type": "field",
+        "port": null,
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:cn"
+        ],
+        "domain": null
+      },
+      {
+        "type": "field",
+        "port": null,
+        "outboundTag": "direct",
+        "ip": null,
+        "domain": [
+          "geosite:cn"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "inbound": [
+    {
+      "localPort": 1080,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "debug",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "seeed.online",
+      "port": 443,
+      "id": "dc364e47-d62a-497f-ad29-7af3d5499148",
+      "alterId": 64,
+      "security": "aes-128-gcm",
+      "network": "tcp",
+      "remarks": "US",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "true",
+      "configType": 1,
+      "testResult": "146ms",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "3",
+  "useragent": [
+    "www.seeedstudio.com"
+  ],
+  "userdirect": [
+    "plm.seeedstudio.com.cn",
+    "k3cloud.seeed.cc，"
+  ],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": true,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysAgentEnabled": true,
+  "listenerType": 2,
+  "urlGFWList": "",
+  "allowLANConn": true,
+  "remoteDNS": "",
+  "subItem": [
+    {
+      "id": "ec4ebec1-3b7c-456b-9d91-a6eed63bf032",
+      "remarks": "AMsCross",
+      "url": "https://v2ray.api.lanan.xyz/client/api.php?token=1e26f782-83ea-4bb9-928c-83dc91f1368c&s=v2ray.subscribe&pid=3164",
+      "enabled": true
+    },
+    {
+      "id": "53e9419f-73af-41a9-bf7e-b380a314a20c",
+      "remarks": "",
+      "url": "",
+      "enabled": true
+    },
+    {
+      "id": "97e668f9-6618-4399-bb22-9a58d4906160",
+      "remarks": "",
+      "url": "",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  }
+}

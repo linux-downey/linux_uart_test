@@ -1,0 +1,60 @@
+--------------------------------info[10:21:07]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[11:10:57]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[11:10:57]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[11:29:41]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[11:29:41]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[11:30:23]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[11:30:23]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[11:30:23]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[11:30:40]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[11:30:40]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[11:30:43]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------info[13:05:25]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:05:26]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:05:26]--------------------------------
+System.Exception: Webserver running...
+
+ 

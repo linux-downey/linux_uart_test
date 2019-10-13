@@ -1,0 +1,47 @@
+--------------------------------info[13:36:57]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------未能找到文件“D:\Programs\V2Ray\user-wininet.json”。[13:36:57]--------------------------------
+System.IO.FileNotFoundException: 未能找到文件“D:\Programs\V2Ray\user-wininet.json”。
+文件名:“D:\Programs\V2Ray\user-wininet.json”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   在 v2rayN.HttpProxyHandler.SysProxyHandle.Read()
+
+ 
+--------------------------------info[13:38:55]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:40:18]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:40:18]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:40:24]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[13:40:24]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[13:40:42]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[13:40:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 

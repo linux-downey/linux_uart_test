@@ -1,0 +1,52 @@
+--------------------------------info[11:26:05]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[11:26:12]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[11:26:13]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[11:26:24]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------info[11:26:24]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[11:26:24]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[11:26:36]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------函数不正确。[11:26:36]--------------------------------
+System.Net.HttpListenerException (0x80004005): 函数不正确。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[11:26:42]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[11:26:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[11:26:42]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[11:26:42]--------------------------------
+System.Exception: Webserver running...
+
+ 

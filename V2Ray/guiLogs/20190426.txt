@@ -1,0 +1,925 @@
+--------------------------------info[09:20:36]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[09:20:39]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:20:39]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:20:39]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:20:39]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:20:39]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:20:39]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:21:47]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:21:47]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:21:47]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:21:47]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:21:47]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:21:47]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:21:47]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:21:47]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:23:21]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:23:21]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:23:21]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:23:21]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:23:21]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:23:21]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:23:21]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:23:21]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:24:50]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:24:50]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:24:50]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:24:50]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:24:50]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:24:50]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:24:50]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:24:50]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:26:04]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:26:04]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:26:04]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:26:04]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:26:04]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:26:04]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:26:04]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:26:04]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:27:35]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:27:35]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:27:35]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:27:35]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:27:35]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:27:35]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:27:35]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:27:35]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:49:45]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:49:45]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:49:45]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:49:45]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:49:45]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:49:45]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:49:45]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:49:45]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:50:44]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[09:50:44]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[09:50:44]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:50:44]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:50:44]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[09:50:44]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[09:50:44]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[09:50:44]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:18:24]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[10:18:24]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[10:18:24]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:18:24]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:18:24]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:18:24]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:18:24]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:18:24]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:32:59]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[10:32:59]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[10:37:41]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[10:37:42]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:37:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:37:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:37:42]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:37:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:37:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:37:57]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[10:37:57]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[10:37:57]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:37:57]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:37:57]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:37:57]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:37:57]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:37:57]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:42:05]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[10:42:05]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[10:42:05]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:42:05]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:42:05]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[10:42:05]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[10:42:05]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[10:42:05]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[11:38:30]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[11:38:30]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[11:38:30]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[11:38:30]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[11:38:30]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[11:38:30]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[11:38:30]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[11:38:30]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:16:36]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[12:16:36]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[12:16:36]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:16:36]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:16:36]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:16:36]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:16:36]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:16:36]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:22:59]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[12:22:59]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[12:22:59]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:22:59]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:22:59]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:22:59]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:22:59]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:22:59]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:23:17]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[12:23:17]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[12:26:30]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[12:26:31]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:26:31]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:26:31]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:26:31]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:26:31]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:26:31]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:28:16]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[12:28:16]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------ID 为 5644 的进程当前未运行。[12:28:17]--------------------------------
+System.ArgumentException: ID 为 5644 的进程当前未运行。
+   在 System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   在 v2rayN.Handler.V2rayHandler.V2rayStop()
+
+ 
+--------------------------------info[12:32:34]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[12:32:35]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:32:35]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:32:35]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:32:35]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:32:35]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:32:35]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:34:35]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[12:34:35]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[12:34:57]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[12:34:58]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:34:58]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:34:58]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:34:58]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:34:58]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:34:58]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------进程(6904)已退出，因此无法处理请求。[12:35:13]--------------------------------
+System.InvalidOperationException: 进程(6904)已退出，因此无法处理请求。
+   在 System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   在 System.Diagnostics.NtProcessManager.GetModuleInfos(Int32 processId, Boolean firstModuleOnly)
+   在 System.Diagnostics.NtProcessManager.GetFirstModuleInfo(Int32 processId)
+   在 System.Diagnostics.Process.get_MainModule()
+   在 v2rayN.HttpProxyHandler.PrivoxyHandler.IsChildProcess(Process process)
+
+ 
+--------------------------------info[12:35:13]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[12:35:13]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[12:35:13]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:35:13]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:35:13]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[12:35:13]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[12:35:13]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[12:35:13]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:34:53]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:34:55]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:34:55]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:34:55]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[13:34:55]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:34:55]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:35:09]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[13:35:09]--------------------------------
+System.Exception: Webserver Stop 192.168.4.56
+
+ 
+--------------------------------info[13:35:09]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[13:35:09]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:35:09]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver Stop 192.168.4.56
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------在前缀“http://127.0.0.1:1082/pac/”上侦听失败，因为它与计算机上的现有注册冲突。[13:36:39]--------------------------------
+System.Net.HttpListenerException (0x80004005): 在前缀“http://127.0.0.1:1082/pac/”上侦听失败，因为它与计算机上的现有注册冲突。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[13:36:39]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:36:39]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:37:27]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[13:37:27]--------------------------------
+System.Exception: Webserver Stop 192.168.4.56
+
+ 
+--------------------------------info[13:37:27]--------------------------------
+System.Exception: Webserver Stop 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。
+
+ 
+--------------------------------info[13:37:30]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:37:31]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:37:31]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:37:31]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[13:37:31]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:37:31]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:54:02]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:54:04]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:54:04]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:54:04]--------------------------------
+System.Exception: Webserver prefixes http://192.168.4.56:1082/pac/
+
+ 
+--------------------------------拒绝访问。[13:54:04]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:54:04]--------------------------------
+System.Exception: Webserver running...
+
+ 

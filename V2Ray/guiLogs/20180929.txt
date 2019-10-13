@@ -1,0 +1,62 @@
+--------------------------------info[22:06:56]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[22:06:58]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[22:06:58]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:11:47]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[22:11:48]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[22:11:48]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:17:18]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[22:17:19]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[22:17:19]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:20:13]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------info[22:20:13]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[22:20:13]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:21:34]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[22:21:34]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[22:21:40]--------------------------------
+System.Exception: Webserver Stop ws
+
+ 

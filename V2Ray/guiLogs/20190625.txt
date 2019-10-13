@@ -1,0 +1,180 @@
+--------------------------------info[21:39:41]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver prefixes http://192.168.1.102:1082/pac/
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver prefixes http://192.168.213.1:1082/pac/
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver prefixes http://192.168.181.1:1082/pac/
+
+ 
+--------------------------------info[21:39:42]--------------------------------
+System.Exception: Webserver prefixes http://169.254.234.234:1082/pac/
+
+ 
+--------------------------------info[21:39:43]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[21:39:44]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver Stop 192.168.1.102
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver Stop 169.254.234.234
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver Stop 192.168.181.1
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver Stop 192.168.213.1
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver prefixes http://192.168.1.102:1082/pac/
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver prefixes http://192.168.213.1:1082/pac/
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver prefixes http://192.168.181.1:1082/pac/
+
+ 
+--------------------------------info[21:39:48]--------------------------------
+System.Exception: Webserver prefixes http://169.254.234.234:1082/pac/
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[21:39:49]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[21:39:49]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver Stop 127.0.0.1
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver Stop 192.168.1.102
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver Stop 169.254.234.234
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver Stop 192.168.181.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[22:33:52]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver Stop 192.168.213.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[22:33:52]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[22:33:52]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[22:33:52]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[22:33:52]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 v2rayN.HttpProxyHandler.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver prefixes http://192.168.1.102:1082/pac/
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver prefixes http://192.168.213.1:1082/pac/
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver prefixes http://192.168.181.1:1082/pac/
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[22:33:52]--------------------------------
+System.Exception: Webserver running...
+
+ 

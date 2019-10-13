@@ -1,0 +1,46 @@
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 9999,
+      "listen": null,
+      "protocol": "vmess",
+      "sniffing": null,
+      "settings": {
+        "auth": null,
+        "udp": false,
+        "ip": null,
+        "clients": [
+          {
+            "id": "3835de26-f206-11e8-9661-561a36b36692",
+            "alterId": 22,
+            "email": "t@t.tt",
+            "security": null
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "tlsSettings": null,
+        "tcpSettings": null,
+        "kcpSettings": null,
+        "wsSettings": null,
+        "httpSettings": null
+      }
+    }
+  ],
+  "outbounds": null,
+  "dns": null,
+  "routing": {
+    "strategy": "rules",
+    "settings": {
+      "domainStrategy": null,
+      "rules": []
+    }
+  }
+}
