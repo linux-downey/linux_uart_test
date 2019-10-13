@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    currentsign.cpp
+    currentsign.cpp \
+    myphotoback.cpp
 
 HEADERS += \
         mainwindow.h \
-    currentsign.h
+    currentsign.h \
+    myphotoback.h
 
 FORMS += \
         mainwindow.ui \
